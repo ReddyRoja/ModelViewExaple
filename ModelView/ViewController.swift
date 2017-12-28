@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         self.setupAnimator()
     }
     func assignbackground(){
-        
+        print("test")
         let background = UIImage(named: "signinbackground")
         var imageView : UIImageView!
         imageView = UIImageView(frame: view.bounds)
